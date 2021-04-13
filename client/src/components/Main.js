@@ -5,7 +5,7 @@ import AppSolo from "./AppSolo";
 import AppDuo from "./AppDuo";
 import Home from "./Home";
 import "../styles/global.scss"
-const endpoint = "https://code-and-compete.herokuapp.com/";
+const endpoint = "http://localhost:4333/";
 const socket = SocketIOClient(endpoint, { transports: ["websocket"] });
 
 class Main extends React.Component {
